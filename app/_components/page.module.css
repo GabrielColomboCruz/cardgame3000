@@ -1,0 +1,11 @@
+.back{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+.img{
+    position: relative;
+    height: 89vh;
+    width: 100%;
+}
