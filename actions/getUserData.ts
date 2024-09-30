@@ -1,4 +1,4 @@
-import UsuarioCRUD from "@/UsuarioCRUD";
+import UsuarioCRUD from "@/model/UsuarioCRUD";
 interface UserProps {
   user?: string;
 }

@@ -12,7 +12,7 @@ const Menu = ({ LinkA = true, href = "/" }: MenuProps) => {
   return (
     <div className="navbar bg-base-100">
       <div className="flex-none">
-        <MenuBurger></MenuBurger>
+        <MenuBurger LinkA={LinkA}></MenuBurger>
       </div>
       <div className="flex-1">
         <MenuCardGame href={href} LinkA={LinkA} />

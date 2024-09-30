@@ -9,7 +9,7 @@ const Settings = async () => {
   return (
     <div>
       <Menu></Menu>
-      Settings Page <br />
+      Session Page <br />
       {JSON.stringify(session)}
       <br />
       <LogoutButton label="Logout"></LogoutButton>
